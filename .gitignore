@@ -1,6 +1,3 @@
-# Files
-.env
-
 # Directories
 data/
 notebooks/
@@ -9,3 +6,5 @@ GANs.egg-info/
 # File-types
 *.csv
 *.jpg
+*.env
+*.envrc
