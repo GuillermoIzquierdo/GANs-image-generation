@@ -5,8 +5,8 @@ with open("requirements.txt") as f:
     content = f.readlines()
 requirements = [x.strip() for x in content if "git+" not in x]
 
-setup(name='GANs',
-      version="0.0.0",
+setup(name='GANs-experimneting-tf',
+      version="0.0.1",
       description="GANs Project Face Generation",
       license="MIT",
       author="Guillermo Izquierdo",
